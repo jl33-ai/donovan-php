@@ -7,6 +7,13 @@
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
 }
 
+.top-section {
+    margin-bottom: 40px;
+    border: 1px;
+    padding: 3em;
+    border-bottom: 1px solid #2c3e50;
+}
+
 .form-container {
     display: flex;
     justify-content: space-between;
@@ -22,11 +29,10 @@ h1 {
 
 p {
     font-size: 1em;
-    margin-bottom: 40px;
 }
 
 .contact-form {
-    margin-bottom: 40px;
+    margin-bottom: 10px;
 }
 
 .contact-form label {
@@ -48,14 +54,24 @@ p {
 .gallery {
     display: flex;
     justify-content: space-between;
-    flex-wrap: wrap;
-    margin-bottom: 30em;
-
 }
 
-.gallery .image {
-    width: 30%;
+.column {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    margin: 0 10px;
+}
+
+.image {
     margin-bottom: 20px;
+}
+
+.image img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 .gallery img {
